@@ -2,17 +2,6 @@ html, body, h1{
      font-family: 'Roboto', sans-serif;
  }
  
-#cover {
-     background-image: url(https://unsplash.com/photos/lWAOc0UuJ-A);
-     background-size: cover;
-     background-position: center;
-     width: 100%;
-     height: 100vh;
-     display: flex;
-     flex-direction: column;
-     justify-content: center;   
- } 
- 
  h1 {
      text-align: center;
  }
@@ -21,7 +10,7 @@ html, body, h1{
      text-align: center;
  }
  #cover h1 {
-     font-size: 50px;
+     font-size: 60px;
      color: rgb(19, 27, 139);
  }
  
@@ -66,14 +55,3 @@ html, body, h1{
      text-align: center;
  }
  
- #move {
-     position: relative;
-     animation: mymove 5s infinite;
-     color: rgb(29, 27, 27);
-     font-size: 25px;
- }
- 
- @keyframes mymove {
-     from {left: -50px;}
-     to {left: 50px;}
- }
