@@ -2,7 +2,7 @@ html, body, h1{
      font-family:cursive;
  }
  
- .content h1 {
+ #content h1 {
      text-align: right;
      width: 100%;
      color: rgb(4, 78, 78);
