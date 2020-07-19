@@ -1,11 +1,5 @@
-<h3> style="font-size:40px; text-align: center;font-color:blue;"</h3>
+h3 {font-size:40px; text-align: center; color:blue;"}
 
-div{
-     text-align: center;
-   }
-div{
-     display: inline-block;
-   }
- div {font-style: oblique;font-size:28px;
-   }
+.div { text-align: center; display: inline-block;font-style: oblique; font-size:28px; }
+
 
