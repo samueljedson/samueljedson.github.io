@@ -3,21 +3,13 @@ html, body, h1{
  }
  
  h1 {
-     text-align: center;
+     text-align: right;
  }
  
  p {
-     text-align: center;
- }
- #cover h1 {
-     font-size: 60px;
-     color: rgb(19, 27, 139);
+     text-align: right;
  }
  
- #cover p {
-     color: rgb(26, 29, 26);
-     font-size: 25px;
- }
  .nav_links {
      overflow: hidden;
      position: fixed;
@@ -43,15 +35,9 @@ html, body, h1{
      background-color: gray;   
  }
  
- #copyright {
-     position: fixed;
-     bottom: 10px;
-     left: 45%;
-     color: lightgray;
- }
- 
  h1 {
      color: rgb(4, 78, 78);
-     text-align: center;
+     text-align: right;
+     font-size: 40px;
  }
  
