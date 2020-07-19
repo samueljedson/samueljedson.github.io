@@ -1,4 +1,11 @@
-h1, h2, p {
+<h3> style="font-size:40px; text-align: center;"</h3>
+
+div{
      text-align: center;
-     color: red;
    }
+div{
+     display: inline-block;
+   }
+ div {font-style: oblique;font-size:28px;
+   }
+
