@@ -1,13 +1,20 @@
 html, body, h1{
-     font-family: 'Roboto', sans-serif;
+     font-family:cursive;
  }
  
  h1 {
      text-align: right;
+     width: 100%;
+     color: rgb(4, 78, 78);
+     font-size:40px;
  }
  
  p {
      text-align: right;
+     width: 100%;
+     color: rgb(10, 138, 197);
+     font-size: 30px;
+
  }
  
  .nav_links {
@@ -25,19 +32,14 @@ html, body, h1{
  
  #bar li a {
      display: block;
-     text-transform: capitalize;
+     text-transform: bold;
      padding: 3px;
      color: rgb(20, 129, 129);
-     text-decoration: none;
+     text-decoration: indigo;
  }
  
  .nav_links li:hover {
-     background-color: gray;   
+     background-color: rgb(156, 151, 151);   
  }
  
- h1 {
-     color: rgb(4, 78, 78);
-     text-align: right;
-     font-size: 40px;
- }
  
