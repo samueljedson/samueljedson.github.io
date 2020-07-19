@@ -43,7 +43,11 @@ html, body, h1{
  }
 
  img {
-     border: 20px solid rgb(199, 66, 5);
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+     border: 15px solid rgb(199, 66, 5);
    }
  
  
