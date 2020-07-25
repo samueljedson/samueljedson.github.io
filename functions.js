@@ -16,3 +16,6 @@ function sayHi() {
     function myFunctionreveal() {
         document.getElementById("jsbutton").innerHTML = "changes";
       }
+
+      function myFunctionlook() {
+        document.getElementById("jsbuttonstyle").style.color = "yellow";
