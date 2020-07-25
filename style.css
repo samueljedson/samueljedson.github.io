@@ -56,7 +56,7 @@ html, body, h1{
       width: 50%;
      border: 15px solid rgb(199, 66, 5);
    }
- 
+   
    p {
     animation-duration: 3s;
     animation-name: slidein;
