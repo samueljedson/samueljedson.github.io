@@ -12,11 +12,9 @@ function sayHi() {
     var elemRef = document.getElementById("first");
     elemRef.innerHTML = "goodbye";
 
-    //adding to javascript a button that changes html element
-    function myFunctionreveal() {
-        document.getElementById("jsbutton").innerHTML = "changes";
-      }
-//button changing css element
-      function myFunctionlook() {
-        document.getElementById("jsbuttonstyle").style.color = "yellow";
+function myFunctionreveal() {
+        document.getElementById("jsbutton").innerHTML = "Oceanside, Oregon";
+    
+    function myFunctionlook() {
+        document.getElementById("jsbuttonstyle").style.color = "blue";
       }
