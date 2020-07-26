@@ -1,4 +1,10 @@
 
+<script>
+    function myFunctionGo() {
+    document.getElementById("catfish").innerHTML = "Thelma and Louise";
+     }
+</script>
+
 function myFunctionlook() {
     document.getElementById("style").style.color = "purple";
 }
@@ -8,8 +14,3 @@ function myFunction() {
     document.getElementById("demo").innerHTML = x;
   }
 
-<script>
-    function myFunctionGo() {
-    document.getElementById("catfish").innerHTML = "Thelma and Louise";
-     }
-</script>
