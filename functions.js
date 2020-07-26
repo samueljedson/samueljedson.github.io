@@ -1,5 +1,4 @@
-
-    function myFunctionGo() {
+function myFunctionGo() {
     document.getElementById("catfish").innerHTML = "Thelma and Louise";
 }
 
