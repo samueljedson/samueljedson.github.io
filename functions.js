@@ -8,8 +8,8 @@ function myFunction() {
     document.getElementById("demo").innerHTML = x;
   }
 
-  <script>
-        function myFunction() {
-          document.getElementById("demo").innerHTML = "Thelma and Louise";
-        }
-        </script>
+<script>
+    function myFunctionGo() {
+    document.getElementById("catfish").innerHTML = "Thelma and Louise";
+     }
+</script>
