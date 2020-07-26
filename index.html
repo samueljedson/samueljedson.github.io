@@ -28,7 +28,7 @@
 <script src=”functions.js”></script>
 
 
-<p>Click the button to trigger a function that will output "Hello World" in a p element with id="demo".</p>
+<p>Guess my Favorite Movie by Clicking on the Button.</p>
 
 <button onclick="myFunction()">Click me</button>
 
@@ -36,10 +36,19 @@
 
 <script>
 function myFunction() {
-  document.getElementById("demo").innerHTML = "Hello World";
+  document.getElementById("demo").innerHTML = "Thelma and Louise";
 }
 </script>
 
+<body>
+
+    <p id="demo" onclick="myFunction()">Click me to change my text color.</p>
+    
+    <script>
+    function myFunction() {
+      document.getElementById("demo").style.color = "red";
+    }
+    </script>
 
 </body>
 
