@@ -3,4 +3,7 @@ function myFunction() {
   document.getElementById("demo").innerHTML = x;
 }
 
+function myFunctionlook() {
+    document.getElementById("style").style.color = "blue";
+}
 
