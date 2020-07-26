@@ -11,3 +11,7 @@ function myFunction() {
     document.getElementById("demo").innerHTML = x;
 }
 
+function myform() {
+    alert("Here's a hint for mine. I like salt and butter on it!");
+  }
+
