@@ -27,14 +27,18 @@
     
 <script src=”functions.js”></script>
 
+<p>Click the button to display a random number between 0 and 100.</p>
 
-<p>Guess my Favorite Movie by Clicking on the Button.</p>
-
-<button onclick="myFunction()">Click me</button>
+<button onclick="myFunction()">Try it</button>
 
 <p id="demo"></p>
 
-
+<script>
+function myFunction() {
+  var x = Math.floor((Math.random() * 100) + 0);
+  document.getElementById("demo").innerHTML = x;
+}
+</script>
 
 </body>
 
