@@ -3,14 +3,10 @@
 //
 
 //reveals changes with button selection on my html and css files
-
-function myFunctionreveal() {
-        document.getElementById("jsbutton").innerHTML = "Oceanside, Oregon";
-}   
-    
-    function myFunctionlook() {
+  
+function myFunctionlook() {
         document.getElementById("jsbuttonstyle").style.color = "blue";
-    }
+}
 
 
 
