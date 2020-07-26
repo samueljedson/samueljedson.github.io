@@ -28,11 +28,17 @@
 <script src=”functions.js”></script>
 
 
-<p id="jsbuttonstyle" style="color: chocolate;">Can you now guess my favorite color?</p>
-<button type="button" onclick="myFunctionlook()">Let's take a look</button>
+<p>Click the button to trigger a function that will output "Hello World" in a p element with id="demo".</p>
 
-<p id="faveplace">My favorite place is...?</p>
-<button type="button" onclick='document.getElementById("demo").innerHTML = "Oceanside, Oregon"'>Find out!</button>
+<button onclick="myFunction()">Click me</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Hello World";
+}
+</script>
 
 
 </body>
