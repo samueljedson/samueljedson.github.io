@@ -4,6 +4,6 @@ function myFunction() {
 }
 
 function myFunctionlook() {
-    document.getElementById("style").style.color = "purple";
+    document.getElementById("style").style.color = "blue";
 }
 
