@@ -49,11 +49,5 @@ html, body, h1{
      background-color: rgb(156, 151, 151);   
  }
 
- img {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 50%;
-     border: 15px solid rgb(199, 66, 5);
-   }
+ 
   
