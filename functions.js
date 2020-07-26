@@ -8,7 +8,11 @@ function myFunctionlook() {
         document.getElementById("jsbuttonstyle").style.color = "blue";
 }
 
-
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Thelma and Louise";
+}
+</script>
 
 
 

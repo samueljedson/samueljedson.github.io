@@ -34,45 +34,7 @@
 
 <p id="demo"></p>
 
-<script>
-function myFunction() {
-  document.getElementById("demo").innerHTML = "Thelma and Louise";
-}
-</script>
 
-<p onclick="myFunction(this, 'blue')">Click me to change my text color.</p>
-
-<script>
-function myFunction(elmnt,clr) {
-  elmnt.style.color = clr;
-}
-</script>
-
-Field1: <input type="text" id="field1" value="Hello World!"><br>
-Field2: <input type="text" id="field2"><br><br>
-
-<button onclick="myFunction()">Copy Text</button>
-
-<p>Copy your text by inserting word into field 1 and clicking "copy text" button.</p>
-
-<script>
-function myFunction() {
-  document.getElementById("field2").value = document.getElementById("field1").value;
-}
-</script>
-
-<p>Click the button to display a random number between 0 and 100.</p>
-
-<button onclick="myFunction()">Try it</button>
-
-<p id="demo"></p>
-
-<script>
-function myFunction() {
-  var x = Math.floor((Math.random() * 100) + 0);
-  document.getElementById("demo").innerHTML = x;
-}
-</script>
 
 </body>
 
