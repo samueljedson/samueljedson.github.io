@@ -21,4 +21,4 @@ function myFunctionreveal() {
     
     function myFunctionlook() {
         document.getElementById("jsbuttonstyle").style.color = "blue";
-}
+    }
