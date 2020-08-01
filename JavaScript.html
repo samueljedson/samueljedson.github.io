@@ -1,143 +1,21 @@
-<DOCTYPE html>
-      <head>
-      <link href=style.css rel="style sheet"/>
-      </head>
-      <style>
-        h1 {color: rgb(114, 7, 30); font-family:georgia,garamond,serif;font-size:25px;font-style:italic;"}
-        p {font-family: georgia,garamond,serif;font-size:20px;}
-
-      </style>
-            <body>
-            <h1 style="text-align: center">Samuel Jayo Edson</h1>
-            <h2 style="text-align:center";font-size:40px;>Journey to becoming a Web Developer</h2>
-
-            <div class="myDiv">
-                <h1>My Professional and Personal Goals</h2>
-                <p> This is a div element text where I will explain my goals and experience with web development.</p>
-              </div>
-
-              <section>
-                <h2>My Skills </h2>
-                <p> Here is where I will list my skills</p>
-              </section>
-              
-              <section>
-                <h2>Why do I care about web development?</h2>
-                <p>This is where I will discuss what I like about web development.</p>
-              </section>
-              
-              <article>
-                <header>
-                  <h1>What I have learned about code</h1>
-                  <p>Reflection 1 [here](https://github.com/samueljedson/samueljedson.github.io)</p>
-                  <p>Reflection 2 [here](https://github.com/samueljedson/samueljedson.github.io)</p>
-                </header>
-                <p>Brief paragraph here on main things learned as web developer</p>
-              </article>
-
-            <p>
-                <a href="tags/tag_base.asp">HTML base tag</a>
-                <b>here I will have the title of my first intro</b>
-                <small>this will bethe start of my pages text</small>
-            </p>
-<-- this element creates blank boxes to be filled out for names. I need to look into where the data is filled, it says it is sent to a seperate page. But where? and how do I access-->
-            <h1>Get in touch!</h1>
-
-<form action="/action_page.php" >
-  <label for="fname">First name:</label>
-  <input type="text" id="fname" name="fname"><br><br>
-  <label for="lname">Last name:</label>
-  <input type="text" id="lname" name="lname"><br><br>
-  <label for="email">email:</label>
-  <input type="email" id="email" name="email"><br><br>
-  <input type="submit" value="Submit">
-</form>
-
-<p>Click the "Submit" button and the form-data will be sent to a page on the 
-server called "action_page.php".</p>
-            <h1>The button element - Styled with CSS</h1>
-            
-            <p>Here are Two Buttons to Click on:</p>
-
-<button class="button button1">Green</button>
-<button class="button button2">Blue</button>
-
-<figure>
-    <img src="https://images.unsplash.com/photo-1543013309-0d1f4edeb868?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=723&q=80" alt="image of computer and code" style="width:50%">
-    <figcaption>Fig.1 - Working as a web developer.</figcaption>
-  </figure>
-
-  <h1>The figure and figcaption element</h1>
-
-<figure>
-  <img src="https://images.unsplash.com/photo-1530565435120-7f79080ea623?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1575&q=80" alt="geological image" style="width:100%">
-  <figcaption>Fig.2 - My passions.</figcaption>
-</figure>
-
-<ol>
-    <li>Coffee</li>
-    <li>Tea</li>
-    <li>Milk</li>
-  </ol>
-  
-
-<dl>
-    <dt>Coffee</dt>
-    <dd>Black hot drink</dd>
-    <dt>Milk</dt>
-    <dd>White cold drink</dd>
-  </dl>
-
-  <head>
-    <style>
-    table, th, td {
-      border: 1px solid black;
-    }
-    </style>
-    </head>
-
-    <header>
-    <div class="nav_links">
-      <ul id="bar">
-      <li><a href="https://samueljedson.github.io/index.html">Home</a></li>
-      <li><a href="https://samueljedson.github.io/JourneyLearning.html">MyJourney</a></li>
-      <li><a href="https://samueljedson.github.io/MyTeam.html">MyTeam</a></li>
-      <li><a href="https://samueljedson.github.io/CSS.html">CSS</a></li>
-      <li><a href="https://samueljedson.github.io/JavaScript.html">JavaScript</a></li>
-     </ul>
-  </div>
+<!DOCTYPE html>
+<html>
+<head>
+<link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+  <header>
+    <h1 id="first">Welcome to JavaScript</h1>
 </header>
-
-    <--table element is a lot like a list and the title is added seperately as the caption below-->
-    <h1>The table element</h1>
+    <div class="nav_links">
+        <ul id="bar">
+        <li><a href="https://samueljedson.github.io/index.html">Home</a></li>
+        <li><a href="https://samueljedson.github.io/JourneyLearning.html">MyJourney</a></li>
+        <li><a href="https://samueljedson.github.io/MyTeam.html">MyTeam</a></li>
+        <li><a href="https://samueljedson.github.io/CSS.html">CSS</a></li>
+        <li><a href="https://samueljedson.github.io/JavaScript.html">JavaScript</a></li>
+       </ul>
+    </div>
+    </body>
     
-    <table>
-        <caption>Educational Background</caption>
-      <tr>
-        <th>Education</th>
-        <th>Year</th>
-      </tr>
-      <tr>
-        <td>Boise State University</td>
-        <td>2020</td>
-      </tr>
-      <tr>
-        <td>Borah High School</td>
-        <td>2008</td>
-      </tr>
-    </table>
-
-    <p>Author: Samuel Edson<br>
-        <a href="mailto:samedson@u.boisestate.edu">samedson@u.boisestate.edu</a></p>
-
-        <h1>Media I am in or enjoy</h1>
-
-<embed iframe width="560" height="315" src="https://www.youtube.com/embed/k7SUMTHbSrY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> >
-
-    <body>
-<!-- this is a video of a bear in a river. I'll have to look into other src links for this kind of element-->
-        <embed iframe width="560" height="315" src="https://www.youtube.com/embed/9JiRYbuEkAc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>>
-            <embedcaption>Fig.2 - My passions.</figcaption>
-        </body>
-
-            </body>
+    </html>
