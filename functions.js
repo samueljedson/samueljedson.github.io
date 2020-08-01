@@ -22,4 +22,3 @@ function displayImage(){
     document.canvas.src = imagesArray[num];
 }
 
-

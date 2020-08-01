@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="style.css" rel="stylesheet"/>
+</head>
+
+<body>
+    <header>
+        <h1 id="first">Welcome to my Homepage</h1>
+<h1 style="color: rgb(7, 247, 235); font-size: larger; text-align: center;">Sam Edson's Coding and Webdesign</h1>
+        <!--Include this animation only on my home page the display setting on my animation attribute may need to be tinkered with-->
+       <p>My web development journey</p>   
+    <!--Consider different animation name for another affect other than the slide or make the duration longer than three seconds-->
+    </header>
+
+        <div class="nav_links">
+            <ul id="bar">
+            <li><a href="https://samueljedson.github.io/index.html">Home</a></li>
+            <li><a href="https://samueljedson.github.io/myjourney.html">My Journey</a></li>
+            <li><a href="https://samueljedson.github.io/aboutme.html">About Me</a></li>
+            <li><a href="https://samueljedson.github.io/codespecific.html">Code-Specific</a></li>
+            <li><a href="https://samueljedson.github.io/index.html">Attributes</a></li>
+            <li><a href="https://samueljedson.github.io/index.html">Nested</a></li>
+            <li><a href="https://samueljedson.github.io/index.html">Tags</a></li>
+           </ul>
+        </div>
+
+        
+<p>give the little button below this text a click and reveal the titile for my favorite movie.</p>
+        
+<button onclick="myFunctionGo()">Click me to reveal</button>
+        
+<p id="catfish"></p>
+
+<p id="style" style=color:lightcoral;">Watch me change the color</p>
+<button type="button" onclick="myFunctionlook()">Change the color</button>
+
+<p>Click the button to display a random number between 0 and 100.</p>
+
+<button onclick="myFunction()">Try it</button>
+<!-- Hoping to borrow from this idea a little bit for an overhaul to my final project just have to get more skills in my toolbelt-->
+<p id="demo"></p>
+
+<p class="para2">Tell me your favorite movie theater snack food</p>
+
+<form class="para2" id="jsform" onsubmit="myform()">
+    <textarea name="message" rows="1" cols="20"></textarea>
+    <br><br>
+    <input type="submit">
+  </form>
+
+<form name="imageForm">
+    <table border=3>
+    <tr>
+      <td>
+        <input onclick="displayImage();" type=button value="random image">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="blank.jpg" name="canvas" />
+      </td>
+    </tr>
+    </table>
+  </form>
+
+  <!-- random images not showing up but I got this code online from stack overflow and tried my best to give it a go-->
+
+<script type= "text/javascript" src="functions.js"></script>
+
+</body>
+
+</html>
+
