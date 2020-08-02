@@ -1,4 +1,4 @@
-html, body, h1, h2, h3{
+html, body, h1, h2, h3, p{
      font-family: sans-serif;
  }
 
@@ -8,17 +8,17 @@ html, body, h1, h2, h3{
      text-align: right;
      width: 100%;
      color: rgb(4, 78, 78);
-     font-size:17px;
+     font-size:30px;
  }
 
  h2 {
     width: 100%;
-    color: rgb(4, 27, 27);
-    font-size:17px;
+    color: rgb(4, 78, 78);
+    font-size:25px;
 }
  h3 {
     width: 100%;
-    color: rgb(2, 27, 27);
+    color: rgb(4, 78, 78);
     font-size:17px;
 }
  
