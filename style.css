@@ -20,8 +20,9 @@ html, body, h1{
  .nav_links {
      overflow: hidden;
      position: fixed;
-     top: 4px;
-     left: 0px;    
+     top: 0;
+     left: 0px;
+     width: 100%;    
  }
  
  .nav_links li {
