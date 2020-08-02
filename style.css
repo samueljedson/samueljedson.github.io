@@ -1,12 +1,14 @@
 html, body, h1{
      font-family: sans-serif;
  }
+
+ body {margin:0;}
  
  h1 {
      text-align: right;
      width: 100%;
      color: rgb(4, 78, 78);
-     font-size:40px;
+     font-size:17px;
  }
  
  .intro p {
@@ -19,7 +21,7 @@ html, body, h1{
  
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(4, 78, 78);
     position: fixed;
     top: 0;
     width: 100%;
