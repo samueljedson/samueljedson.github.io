@@ -37,8 +37,13 @@ html, body, h1{
      padding: 3px;
      color: rgb(20, 129, 129);
      text-decoration: indigo;
+     overflow: hidden;
+     background-color: #333;
+     position: fixed;
+     top: 0;
+     width: 100%;
  }
- 
+
  .nav_links li:hover {
      background-color: rgb(156, 151, 151);   
  }
