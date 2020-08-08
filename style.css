@@ -21,6 +21,12 @@ html, body, h1, h2, h3, p{
     color: rgb(4, 78, 78);
     font-size:17px;
 }
+h1 {
+  text-align: center;
+  width: 100%;
+  color: rgb(4, 78, 78);
+  font-size:17px;
+}
  
 .navbar {
     overflow: hidden;
