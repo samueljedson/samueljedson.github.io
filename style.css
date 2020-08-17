@@ -57,3 +57,7 @@ h1 {
     height: 1500px; /* Used in this example to enable scrolling */
   }
   
+  .my_class_name {
+    margin: 0 auto;
+    border: 20px solid #ddd;
+  }
